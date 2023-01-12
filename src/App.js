@@ -6,7 +6,7 @@ import Primary from './Components/Primary';
 function App() {
   return (
     <div className="App">
-     <h1>Sarthak's site </h1>
+     <h1>Sarthak's site</h1>
     </div>
   );
 }
