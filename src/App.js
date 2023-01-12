@@ -8,6 +8,7 @@ function App() {
     <Router>
     <Routes>
       <Route path='/' element={<Homepage/>}/>
+      <h1>hello this is me sarthk tyagi ji </h1>
       <Route path='/primary' element={<Primary/>}/>
     </Routes>
   </Router>
