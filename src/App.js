@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 
 
 function App() {
   return (
     <div className="App">
-     
+     <h1>Sarthak's site</h1>
     </div>
   );
 }
