@@ -5,9 +5,12 @@ import Primary from './Components/Primary';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Sarthak's site</h1>
-    </div>
+    <Router>
+    <Routes>
+      <Route path='/' element={<Homepage/>}/>
+      <Route path='/primary' element={<Primary/>}/>
+    </Routes>
+  </Router>
   );
 }
 
