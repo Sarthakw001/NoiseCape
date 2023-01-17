@@ -1,8 +1,9 @@
-import Modal from "./Modal";
+import Modal from "../Modal";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100" id="NAVBAR">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -60,7 +61,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button href="#" className="btn">GitHub Repo</button>
+        <button className="btn"><a href="https://github.com/Sarthakw001/NoiseCape " target="_blank" rel="noreferrer"> Github repo</a></button>
       </div>
       <Modal data1={"Instruction"} data2={"my-modal-4"} />
       <Modal data1={"About Us"}  data2={"my-modal-5"}/>

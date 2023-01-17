@@ -1,0 +1,7 @@
+#NAVBAR{
+    border-style: solid;
+    border-bottom-width:1px ;
+    border-color: #1d222b;
+    position: fixed;
+    z-index: 1;
+}

@@ -6,10 +6,11 @@ const Modal = ({data1,data2}) => {
         <label className="modal-box relative" htmlFor="">
           {data1 === "Instruction" && (
             <div>
-              <h3 className="text-lg font-bold">Instruction</h3>
+              <h3 className="text-lg font-bold   ">Instruction</h3>
               <ol className="py-4">
-                <li>1. Instruction1</li>
-                <li>2. Instruction2</li>
+                <li>1. Use the sidebar to control global volume of the app.</li>
+                <li>2. Click on the noise icons to play the sounds</li>
+                <li>3. Use the slider below every icon to control individual volume</li>
               </ol>
             </div>
           )}
